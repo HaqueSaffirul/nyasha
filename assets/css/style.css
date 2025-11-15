@@ -513,6 +513,44 @@ ol {
   color: rgba(254, 248, 241, 0.5);
 }
 
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-surface);
+  border-top: 1px solid rgba(255, 227, 187, 0.08);
+  padding: 12px 0;
+  z-index: 100;
+  text-align: center;
+}
+
+.sticky-footer-text {
+  font-size: 0.85rem;
+  color: rgba(254, 248, 241, 0.5);
+  margin: 0;
+}
+
+.sticky-footer-text a {
+  color: rgba(254, 248, 241, 0.7);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sticky-footer-text a:hover {
+  color: rgba(200, 138, 60, 0.9);
+}
+
+@media (max-width: 768px) {
+  .sticky-footer {
+    padding: 10px 0;
+  }
+  
+  .sticky-footer-text {
+    font-size: 0.75rem;
+  }
+}
+
 .page-hero {
   background: linear-gradient(180deg, rgba(200, 138, 60, 0.12), transparent 75%);
   padding-top: 140px;
