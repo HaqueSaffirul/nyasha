@@ -10,7 +10,7 @@
   --color-border: rgba(255, 227, 187, 0.14);
   --color-success: #4ecfa5;
   --color-shadow: rgba(0, 0, 0, 0.4);
-  --font-heading: "Dancing Script", cursive;
+  --font-heading: "Dancing Script";
   --font-body: "Montserrat", sans-serif;
   --container-width: min(1120px, 90vw);
   --transition-base: cubic-bezier(0.4, 0, 0.2, 1);
